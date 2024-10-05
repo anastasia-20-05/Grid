@@ -364,6 +364,7 @@ body {
     background-position: top left;
     line-height: 20px;
   }
+
 }
 
 @media (max-width: 576px) {
@@ -381,6 +382,26 @@ body {
 
   .hero .container .row >div:nth-child(2) {
     display: none;
+  }
+
+  .hero__content {
+    padding-top: 61px;
+  }
+
+  .hero__descr {
+    max-width: 322px;
+  }
+
+  .benefit__icon {
+    justify-content: start;
+  }
+
+  .benefit .container .row {
+    flex-wrap: nowrap;
+  }
+
+  .benefit {
+    padding-bottom: 49px;
   }
 
 }

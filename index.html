@@ -62,13 +62,14 @@
       <section class="benefit">
         <div class="container">
           <div class="row">
-            <div class="col-lg-2 col-md-4 flex benefit__icon">
+            <div class="col-lg-2 col-md-4 col-sm-4 flex benefit__icon">
               <picture>
-                <source  media="(max-width: 768px)" srcset="img/benefit_min.png" type="image/png">
+               <source  media="(max-width: 768px)" srcset="img/benefit_min.png" type="image/png">
+               <source  media="(max-width: 576px)" srcset="img/benefit_min2.png" type="image/png">
               <img src="img/Vectarytexture.png" alt="" aria-hidden="true" />
             </picture>
             </div>
-            <div class="col-lg-10 col-md-8">
+            <div class="col-lg-10 col-md-8 col-sm-8">
               <h3 class="second-title benefit__title">Преимущества обучения в&nbsp;skillbox</h3>
               <p class="benefit-descr">
                 Имеется спорная точка зрения, гласящая примерно следующее:
@@ -108,12 +109,12 @@
           <h2 class="teacher-title">Преподаватели курсов</h2>
           <ul class="list-reset row teacher__list">
             <!-- TODO: alternative -->
-            <li class="col-lg-3 col-md-6 teacher-item flex">
-              <img
-                src="img/teacher1.svg"
-                class="teacher-item__image"
-                alt="учитель"
-              />
+            <li class="col-lg-3 col-md-6 col-sm-6 teacher-item flex">
+              <picture class="teacher-item__image">
+                <source media="(max-width: 768px)" srcset="img/teacher1.png" type="image/png">
+                <source media="(max-width: 576px)" srcset="img/teacher_sm1.png" type="image/png">
+                <img src="img/teacher1.svg" alt="Логотип" />
+              </picture>
               <h3 class="teacher-item__title">Владимир Петров</h3>
               <p class="descr teacher-item__descr">
                 Лишь непосредственные участники технического прогресса
@@ -121,36 +122,33 @@
                 <br />предоставлены сами себе.
               </p>
             </li>
-            <li class="col-lg-3 col-md-6 teacher-item flex">
-              <img
-                src="img/teacher2.svg"
-                class="teacher-item__image"
-                alt="учитель"
-              />
+            <li class="col-lg-3 col-md-6 col-sm-6 teacher-item flex">
+              <picture class="teacher-item__image">
+                <source media="(max-width: 768px)" srcset="img/teacher2.png" type="image/png">
+                <img src="img/teacher2.svg" alt="Логотип" />
+              </picture>
               <h3 class="teacher-item__title">Денис Сергеев</h3>
               <p class="descr teacher-item__descr">
                 Безусловно, разбавленное изрядной долей эмпатии, рациональное
                 мышление.
               </p>
             </li>
-            <li class="col-lg-3 col-md-6 teacher-item flex">
-              <img
-                src="img/teacher3.svg"
-                class="teacher-item__image"
-                alt="учитель"
-              />
+            <li class="col-lg-3 col-md-6 col-sm-6 teacher-item flex">
+              <picture class="teacher-item__image">
+                <source media="(max-width: 768px)" srcset="img/teacher3.png" type="image/png">
+                <img src="img/teacher3.svg" alt="Логотип" />
+              </picture>
               <h3 class="teacher-item__title">Михаил Андреев</h3>
               <p class="descr teacher-item__descr">
                 Ясность нашей позиции очевидна: высокое качество позиционных
                 исследований напрямую зависит от&nbsp;вывода.
               </p>
             </li>
-            <li class="col-lg-3 col-md-6 teacher-item flex">
-              <img
-                src="img/teacher4.svg"
-                class="teacher-item__image"
-                alt="учитель"
-              />
+            <li class="col-lg-3 col-md-6 col-sm-6 teacher-item flex">
+              <picture class="teacher-item__image">
+                <source media="(max-width: 768px)" srcset="img/teacher4.png" type="image/png">
+                <img src="img/teacher4.svg" alt="Логотип" />
+              </picture>
               <h3 class="teacher-item__title">Константин Дмитриев</h3>
               <p class="descr teacher-item__descr">
                 Мы&nbsp;вынуждены отталкиваться от&nbsp;того, что существующая
@@ -166,7 +164,7 @@
           <div class="row">
             <ul class="list-reset row courses__list">
               <!-- TODO: alternative -->
-              <li class="col-lg-6 col-md-6">
+              <li class="col-lg-6 col-md-6 col-sm-6">
                 <div class="courses-item flex">
                   <div class="courses-item__time">
                     <svg
@@ -195,11 +193,10 @@
 
                     <p>60 часов</p>
                   </div>
-                  <img
-                    src="img/courses1.svg"
-                    class="courses-item__image"
-                    alt="курс"
-                  />
+                  <picture class="courses-item__image">
+                    <source media="(max-width: 768px)" srcset="img/courses_min1.png" type="image/png">
+                    <img src="img/courses1.svg" alt="Логотип" />
+                  </picture>
                   <div class="courses__ot">
                     <h3 class="courses-item__title">
                       Cinema 4d&nbsp;для начинающих
@@ -214,7 +211,7 @@
                   </div>
                 </div>
               </li>
-              <li class="col-lg-6 col-md-6">
+              <li class="col-lg-6 col-md-6 col-sm-6">
                 <div class="courses-item flex">
                 <div class="courses-item__time">
                   <svg
@@ -243,11 +240,10 @@
 
                   <p>40 часов</p>
                 </div>
-                <img
-                  src="img/courses2.svg"
-                  class="courses-item__image"
-                  alt="курс"
-                />
+                <picture class="courses-item__image">
+                  <source media="(max-width: 768px)" srcset="img/courses_min2.png" type="image/png">
+                  <img src="img/courses2.svg" alt="Логотип" />
+                </picture>
                 <div class="courses__ot">
                   <h3 class="courses-item__title">
                     Blender: продвинутый уровень
@@ -262,7 +258,7 @@
                 </div>
               </div>
               </li>
-              <li class="col-lg-6 col-md-6 flex">
+              <li class="col-lg-6 col-md-6 col-sm-6 flex">
                 <div class="courses-item flex">
                 <div class="courses-item__time">
                   <svg
@@ -291,11 +287,10 @@
 
                   <p>40 часов</p>
                 </div>
-                <img
-                  src="img/courses3.svg"
-                  class="courses-item__image"
-                  alt="курс"
-                />
+                <picture class="courses-item__image">
+                  <source media="(max-width: 768px)" srcset="img/courses_min3.png" type="image/png">
+                  <img src="img/courses3.svg" alt="Логотип" />
+                </picture>
                 <div class="courses__ot">
                   <h3 class="courses-item__title">Визуализация в&nbsp;3ds Max</h3>
                   <p class="courses-item__descr">
@@ -307,7 +302,7 @@
                 </div>
               </div>
               </li>
-              <li class="col-lg-6 col-md-6 flex">
+              <li class="col-lg-6 col-md-6 col-sm-6 flex">
                 <div class="courses-item flex">
                 <div class="courses-item__time">
                   <svg
@@ -336,11 +331,10 @@
 
                   <p>80 часов</p>
                 </div>
-                <img
-                  src="img/courses4.svg"
-                  class="courses-item__image"
-                  alt="курс"
-                />
+                <picture class="courses-item__image">
+                  <source media="(max-width: 768px)" srcset="img/courses_min4.png" type="image/png">
+                  <img src="img/courses4.svg" alt="Логотип" />
+                </picture>
                 <div class="courses__ot">
                   <h3 class="courses-item__title">Скульптинг в ZBrush</h3>
                   <p class="courses-item__descr">
