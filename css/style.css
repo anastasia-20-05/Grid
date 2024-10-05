@@ -1,0 +1,296 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
+       url('../fonts/Roboto-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: bold;
+  font-weight: 700;
+  src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
+       url('../fonts/Roboto-Bold.woff') format('woff');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+html, body {
+  font-family: 'Roboto', sans-serif;
+}
+
+:root {
+  --main-color: #fff;
+  --benefit-color: #666666;
+}
+
+.list-reset {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.title {
+  margin: 0;
+  margin-bottom: 27px;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 100%;
+  color: var(--main-color);
+}
+
+.descr {
+  margin: 0;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--main-color);
+}
+
+.hero__link {
+  display: inline-block;
+  padding: 23px 77px;
+  font-size: 18px;
+  line-height: 21px;
+  color: var(--main-color);
+  background: #3F2AFF;
+  border-radius: 20px;
+}
+
+.second-title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+}
+.header {
+  background: #3F2AFF;
+  padding: 29px 0;
+}
+
+.header__nav {
+  margin-right: 60px;
+}
+
+.nav-list {
+  align-items: center;
+}
+
+.nav__item:not(:last-child) {
+  margin-right: 60px;
+}
+
+.nav__link {
+  font-size: 18px;
+  line-height: 21px;
+  color: var(--main-color);
+}
+
+.header__content {
+  align-items: center;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.hero {
+  background: radial-gradient(44.07% 44.07% at 67.78% 55.93%, #555681 0%, #212133 100%);
+  padding-top: 27px;
+}
+
+.hero__content {
+  padding-top: 105px;
+}
+
+.hero__descr {
+  margin-bottom: 62px;
+}
+
+.benefit {
+  padding-top: 82px;
+  padding-bottom: 62px;
+  background: #E5E5E5;
+}
+
+.benefit-descr {
+  margin-bottom: 3px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--benefit-color);
+}
+.benefit-item{
+  padding: 13px 0;
+  padding-left: 109px;
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: 78px 80px;
+}
+
+.benefit-item--1 {
+  background-image: url('../img/benefit1.png');
+}
+
+.benefit-item--2 {
+  background-image: url('../img/benefit2.png');
+}
+
+.benefit-item--3 {
+  background-image: url('../img/benefit3.png');
+}
+
+.benefit-item .descr {
+  line-height: 120%;
+}
+
+.teacher{
+  background: #212133;
+  padding-top: 76px;
+  padding-bottom: 75px;
+}
+
+.teacher__list {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.teacher-title {
+  margin: 0;
+  margin-bottom: 23px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+  color: var(--main-color);
+}
+
+.teacher-item__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--main-color);
+}
+
+.teacher-item__descr {
+  font-weight: 400;
+font-size: 16px;
+line-height: 25px;
+}
+
+.teacher-item__image {
+  margin-bottom: 31px;
+}
+
+.courses {
+  background: #E5E5E5;
+  padding-top: 74px;
+}
+
+.courses-item {
+  height: 100%;
+}
+
+.courses-item {
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  padding-top: 23px;
+}
+
+.courses-item__title {
+  margin: 0;
+  margin-bottom: 7px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  color: #212133;
+  padding-top: 32px;
+}
+
+.courses-item__descr {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--benefit-color);
+}
+
+.courses__ot {
+  padding-left: 31px;
+}
+
+.courses__link {
+  margin-top: 48px;
+  margin-bottom: 36px;
+  display: inline-block;
+  padding: 20px 54px;
+  font-size: 18px;
+  line-height: 21px;
+  color: var(--main-color);
+  background: #3F2AFF;
+  border-radius: 20px;
+}
+
+.footer {
+  padding-top: 73px;
+}
+
+.footer__top {
+  padding: 29px 0;
+  background: #2E2B44;
+}
+.social {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.social__link {
+  display: flex;
+  align-items: center;
+}
+
+.footer__copy {
+  width: 100%;
+  text-align: center;
+  font-size: 13px;
+  line-height: 15px;
+  color: #2E2B44;
+}
+
+.footer__copy span {
+  color: #3F2AFF;
+}
+
+.social__item:not(:last-child) {
+  margin-right: 30px;
+}
