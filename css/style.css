@@ -192,7 +192,7 @@ body {
 .teacher {
   background: #212133;
   padding-top: 75px;
-  padding-bottom: 73px;
+  padding-bottom: 75px;
 }
 
 .teacher__list {
@@ -379,7 +379,7 @@ body {
   .courses__link {
     padding: 19.5px 56.5px;
   }
-  
+
 }
 
 @media (max-width: 576px) {
@@ -417,6 +417,15 @@ body {
 
   .benefit {
     padding-bottom: 49px;
+  }
+
+  .courses-item__title {
+    line-height: 130%;
+    font-size: 17.3px;
+  }
+
+  .courses__link {
+    padding: 19.5px 48px;
   }
 
 }
