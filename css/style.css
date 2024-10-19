@@ -113,6 +113,8 @@ body {
 .nav__list {
   justify-content: flex-end;
   gap: 57px;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
 }
 /* TODO: fix */
 /* .nav__item:not(:last-child) {
@@ -123,6 +125,7 @@ body {
   font-size: 18px;
   line-height: 21px;
   color: var(--main-color);
+  white-space: nowrap;
 }
 
 .header__content {
@@ -412,7 +415,8 @@ body {
   }
 
   .benefit .container .row {
-    flex-wrap: nowrap;
+    /* TODO проверить */
+    /* flex-wrap: nowrap; */
   }
 
   .benefit {
@@ -426,6 +430,41 @@ body {
 
   .courses__link {
     padding: 19.5px 48px;
+  }
+
+}
+
+@media (max-width: 450px){
+
+  .header {
+    padding: 27.5px 0;
+  }
+
+  .header__logo {
+    margin-bottom: 18px;
+  }
+
+  .hero__content {
+    padding-top: 34px;
+  }
+
+
+  .title {
+    font-size: 30px;
+    margin-bottom: 6px;
+  }
+
+  .descr {
+    font-size: 16px;
+    line-height: 130%;
+    margin-bottom: 43px;
+  }
+
+
+  .hero__link {
+    padding: 20.5px 53.5px;
+    font-size: 16px;
+    line-height: auto;
   }
 
 }
