@@ -116,6 +116,10 @@ body {
   flex-wrap: nowrap;
   overflow-x: scroll;
 }
+
+.nav__list::-webkit-scrollbar {
+  height: 0;
+}
 /* TODO: fix */
 /* .nav__item:not(:last-child) {
   margin-right: 60px;
@@ -444,6 +448,10 @@ body {
     margin-bottom: 18px;
   }
 
+  .hero {
+    padding: 15px 0 48px 0;
+  }
+
   .hero__content {
     padding-top: 34px;
   }
@@ -466,5 +474,51 @@ body {
     font-size: 16px;
     line-height: auto;
   }
+
+  .benefit {
+    padding-top: 50px;
+    padding-bottom: 18px;
+  }
+
+  .benefit__title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 3px;
+  }
+
+  .benefit-descr {
+    margin-top: 0;
+    margin-bottom: 24px;
+  }
+
+  .benefit__icon {
+    display: none;
+  }
+
+  .benefit-item {
+    padding-top: 0;
+    padding-left: 110px;
+    max-width: fit-content;
+    font-weight: 700;
+    line-height: 120%;
+    min-height: 86px;
+  }
+
+  .teacher {
+    padding-top: 47px;
+  }
+
+  .teacher-title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 100%;
+    margin-bottom: 27px;
+  }
+
+  .w100p {
+    width: 100%;
+  }
+
 
 }
