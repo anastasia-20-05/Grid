@@ -507,6 +507,7 @@ body {
 
   .teacher {
     padding-top: 47px;
+    padding-bottom: 42px;
   }
 
   .teacher-title {
@@ -516,9 +517,25 @@ body {
     margin-bottom: 27px;
   }
 
+.teacher-item__descr {
+  line-height: 24px;
+  margin-bottom: 2px;
+}
+
   .w100p {
     width: 100%;
   }
 
+  .courses {
+    padding: 43px 0 80px 0;
+  }
 
+  .courses-item__descr {
+    margin-bottom: 85px;
+  }
+
+  .courses__link {
+    padding: 19.5px 56px;
+    font-weight: 700;
+  }
 }
