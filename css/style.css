@@ -438,6 +438,13 @@ body {
 
 }
 
+@media (max-width: 500px) {
+  .nav__list {
+    justify-content: flex-start;
+  }
+}
+
+/* TODO: max-width: 575px */
 @media (max-width: 450px){
 
   .header {
